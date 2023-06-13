@@ -33,7 +33,7 @@
 }
 .freebie {
   color: var(--marine-blue);
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 .cost {
   color: var(--gray);
@@ -44,7 +44,7 @@
 }
 .empty-field {
   color: var(--strawberry-red);
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 
 .current-step {
@@ -63,11 +63,12 @@
 /* Global Styling */
 body {
   background-color: var(--magnolia);
-  font-family: "ubuntu-regular";
+  font-family: var(--ubuntu);
+  font-weight: var(--fw1);
   font-size: 1rem;
 }
 ::placeholder {
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
   color: var(--gray);
 }
 button {
@@ -96,7 +97,7 @@ button {
   border-radius: 100%;
   color: var(--alabaster);
   width: 2.2rem;
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 .step > div:nth-child(1).current-step {
   background-color: var(--light-blue);
@@ -138,10 +139,11 @@ button {
 .form__description h2 {
   color: var(--marine-blue);
   font-size: 1.7rem;
-  font-family: "ubuntu-bold";
+
+  font-weight: var(--fw3);
 }
 .form__description p {
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw1);
   max-width: 30ch;
   color: var(--gray);
 }
@@ -150,7 +152,6 @@ button {
 }
 .input-container label {
   color: var(--marine-blue);
-  font-family: "ubuntu-regular";
 }
 .input-container input {
   padding: 0.5rem 1rem;
@@ -158,7 +159,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 0.9em;
-  font-family: "ubuntu-bold";
+  font-weight: var(--fw3);
   color: var(--marine-blue);
 }
 .input-container input.empty {
@@ -205,7 +206,7 @@ button {
   cursor: pointer;
 }
 .option label {
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 
 .option label[data-active="true"] {
@@ -309,7 +310,7 @@ input[type="checkbox"]#plan_type {
 }
 .add-on__description h4 {
   color: var(--marine-blue);
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 .add-on__description p {
   color: var(--gray);
@@ -326,7 +327,7 @@ input[type="checkbox"]#plan_type {
 }
 .form:nth-of-type(4) > div p:last-child {
   color: var(--purplish-blue);
-  font-family: "ubuntu-bold";
+  font-weight: var(--fw3);
 }
 .payment {
   background-color: var(--alabaster);
@@ -349,16 +350,16 @@ input[type="checkbox"]#plan_type {
 }
 .payment > div h5 {
   color: var(--gray);
-  font-family: "ubuntu-regular";
+
   letter-spacing: 1px;
 }
 .payment > div:first-child p {
   color: var(--marine-blue);
-  font-family: "ubuntu-bold";
+  font-weight: var(--fw3);
 }
 .payment > :not(div:first-child) p {
   color: var(--marine-blue);
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 .form:last-of-type {
   display: grid;
@@ -373,7 +374,7 @@ input[type="checkbox"]#plan_type {
 .form:last-of-type h6 {
   font-size: 1.5rem;
   color: var(--marine-blue);
-  font-family: "ubuntu-bold";
+  font-weight: var(--fw3);
 }
 .form:last-of-type p {
   color: var(--gray);
@@ -393,14 +394,14 @@ input[type="checkbox"]#plan_type {
   color: var(--alabaster);
   border: 0;
   padding: 0.6rem 1.3rem;
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
   border-radius: 5px;
 }
 .form__buttons > button:first-child {
   background-color: transparent;
   color: var(--gray);
   border: 0;
-  font-family: "ubuntu-medium";
+  font-weight: var(--fw2);
 }
 
 @media (min-width: 500px) {
@@ -473,7 +474,7 @@ input[type="checkbox"]#plan_type {
   .step > div:last-child p:last-child {
     color: var(--magnolia);
     font-size: 0.9rem;
-    font-family: "ubuntu-bold";
+    font-weight: var(--fw3);
   }
   .wrapper {
     position: unset;
