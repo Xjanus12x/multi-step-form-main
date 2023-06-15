@@ -455,7 +455,7 @@ input[type="checkbox"]#plan_type {
   }
   .wrapper {
     padding: 0;
-    align-self: start;
+    align-self: center;
   }
   .form {
     padding: 2rem 5rem;
