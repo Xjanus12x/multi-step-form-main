@@ -48,7 +48,6 @@ formButtons.addEventListener("click", (event) => {
       animateStepIndicator();
       animateForm();
     }
-
     setTotalPayment(userSelectedPlan);
   }
 });
