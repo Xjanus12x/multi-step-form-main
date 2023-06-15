@@ -404,6 +404,13 @@ input[type="checkbox"]#plan_type {
   font-weight: var(--fw2);
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+}
+
+
 @media (min-width: 500px) {
   .plan__options {
     grid-template-columns: repeat(3, 1fr);
